@@ -61,12 +61,10 @@ table {
 
 body{
     background-color: hsl(185, 75%, 39%);
-    background-image:url(images/bg-pattern-top.svg);
+    background-image:url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-y:-480px;
-    background-position-x: -400px;
     font-family: 'Kumbh Sans', sans-serif;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
 }
 /*Position of the card*/
 .container{
